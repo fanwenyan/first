@@ -1,0 +1,222 @@
+@media screen and (min-width: 1000px)
+{		
+	h1
+	{
+		text-align: center;
+	}
+	h2
+	{
+		text-align: center;
+		color:	#6A5ACD ;
+	}
+	#begin
+	{
+		float:left;
+		width: 48%;
+		height: 200px;
+		margin-right: 20px;
+	}
+	#ziliao
+	{
+		border-style: solid;
+		border-color: black;
+		border-width: thin;
+		width: 48%;
+		height: 300px;
+		float: left;
+		margin-bottom: 50px;
+	}
+	body
+	{
+		margin-left: 180px;
+		margin-right: 180px;
+	}
+	span
+	{
+		font-size: 150%;
+	}
+	p
+	{
+		text-indent: 2em;
+		line-height: 150%;
+	}
+	#member
+	{
+		clear: both;
+		text-align: center;
+	}
+	.member1
+	{
+	    width: 48%;
+	    height: 300px;
+	    background-image:url(picture/touxiang.jpg);
+	    float: left;
+	    background-position: center;
+	    margin-bottom: 30px;
+	    background-size: 100% 100%;
+	    box-shadow: 5px 5px 5px grey;
+	    opacity:1.0;
+	}
+	.member3
+	{
+		background-image: url(picture/yunwei2.jpg);
+		width:95%;
+		clear: both;
+		height: 300px;
+		margin-bottom: 30px;
+		background-size: 100% 100%;
+		box-shadow: 5px 5px 5px grey;
+		opacity:1.0;
+	 }
+	.member4
+	{
+		background-image: url(picture/touxiang.jpg);
+		width: 32%;
+		height: 300px;
+		margin-bottom: 30px;
+		float: left;
+		background-size: 100% 100%;
+		box-shadow: 5px 5px 5px grey;
+		opacity:1.0;
+	}
+	#new
+	{
+		clear: both;
+	}
+	.member5
+	{
+		background-image: url(picture/touxiang.jpg);
+		width: 24%;
+		height: 270px;
+		margin-bottom: 30px;
+		float: left;
+		background-size: 100% 100%;
+		box-shadow: 5px 5px 5px grey;
+		opacity:1.0;
+	}
+	#xiangmu
+	{
+		clear: both;
+	}
+	.member1:hover
+	{
+	    opacity:0.6;
+		transform: scale(1.2);  
+		transition:all 1.2s; 
+	}
+	.member3:hover
+	{
+       opacity:0.6;
+	   transform: scale(1.2);  
+	   transition:all 1.2s; 
+	}
+	.member4:hover
+	{
+       opacity:0.6;
+	   transform: scale(1.2);  
+	   transition:all 1.2s; 
+	}
+	.member5:hover
+	{
+       opacity:0.6;
+	   transform: scale(1.2);  
+	   transition:all 1.2s; 
+	}
+}
+@media screen and (max-width: 999px )
+{
+	
+	h1
+	{
+		text-align: center;
+	}
+	h2
+	{
+		text-align: center;
+		color:	#6A5ACD ;
+	}
+	#begin
+	{
+		width: 420px;
+		height: 200px;
+		margin-right: 20px;
+	}
+	#ziliao
+	{
+		border-style: solid;
+		border-color: black;
+		border-width: thin;
+		width: 440px;
+		height: 300px;
+		margin-bottom: 50px;
+	}
+  body
+  {
+  	text-align: center;
+  	margin-right: 180px;
+  	margin-left: 245px;
+  }
+  span
+	{
+		font-size: 150%;
+	}
+	p
+	{
+		text-indent: 2em;
+		line-height: 150%;
+	}
+	#member
+	{
+		clear: both;
+		text-align: center;
+	}
+  .member1
+	{
+	    width: 440px;
+	    height: 300px;
+	    background-image:url(picture/touxiang.jpg);
+	    float: left;
+	    background-position: center;
+	    margin-bottom: 30px;
+	    background-size: 100% 100%;
+	    box-shadow: 5px 5px 5px grey;
+	    opacity: 1.0;
+	}
+	.member3
+	{
+		background-image: url(picture/yunwei2.jpg);
+		width: 440px;
+		height: 350px;
+		clear: both;
+		margin-bottom: 30px;
+		background-size: 100% 100%;
+		box-shadow: 5px 5px 5px grey;
+		opacity:1.0;
+	 }
+	.member4
+	{
+		background-image: url(picture/touxiang.jpg);
+		width: 440px;
+		height: 300px;
+		margin-bottom: 30px;
+		float: left;
+		background-size: 100% 100%;
+		box-shadow: 5px 5px 5px grey;
+		opacity: 1.0;
+	}
+	.member5
+	{
+		background-image: url(picture/touxiang.jpg);
+		width: 440px;
+		height: 350px;
+		margin-bottom: 30px;
+		float: left;
+		background-size: 100% 100%;
+		box-shadow: 5px 5px 5px grey;
+		opacity: 1.0px;
+	}
+	#xiangmu
+	{
+		clear: both;
+	}
+}
